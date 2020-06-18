@@ -6,7 +6,7 @@ use base qw(Koha::Plugins::Base);
 
 use C4::Context;
 
-our $VERSION = '1.1';
+our $VERSION = '1.2';
 
 our $metadata = {
     name   => 'Theme Intranet LSD',
@@ -28,6 +28,27 @@ sub new {
     my $self = $class->SUPER::new($args);
 
     return $self;
+}
+
+# Mandatory even if does nothing
+sub install {
+    my ( $self, $args ) = @_;
+ 
+    return 1;
+}
+ 
+# Mandatory even if does nothing
+sub upgrade {
+    my ( $self, $args ) = @_;
+ 
+    return 1;
+}
+ 
+# Mandatory even if does nothing
+sub uninstall {
+    my ( $self, $args ) = @_;
+ 
+    return 1;
 }
 
 sub intranet_head {
