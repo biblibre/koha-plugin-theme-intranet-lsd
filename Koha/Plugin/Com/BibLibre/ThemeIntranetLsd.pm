@@ -14,7 +14,7 @@ our $metadata = {
     description => 'An hallucinating theme for intranet',
     date_authored   => '2019-06-01',
     date_updated    => '2020-06-22',
-    minimum_version => '19.11.00.000',
+    minimum_version => '19.11',
     maximum_version => undef,
     version         => $VERSION,
 };
