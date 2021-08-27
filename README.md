@@ -2,7 +2,7 @@
 
 ## Presentation
 
-Some psychotic CSS rules for intranet interface.
+Some psychedelic CSS rules for intranet interface.
 
 Its main purpose is to create on a test/dev server an explicit visual difference with production server
 
