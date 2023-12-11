@@ -6,14 +6,14 @@ use base qw(Koha::Plugins::Base);
 
 use C4::Context;
 
-our $VERSION = '1.5';
+our $VERSION = '1.6';
 
 our $metadata = {
     name   => 'Theme Intranet LSD',
     author => 'BibLibre',
     description => 'An hallucinating theme for intranet',
     date_authored   => '2019-06-01',
-    date_updated    => '2023-10-10',
+    date_updated    => '2023-12-11',
     minimum_version => '19.11',
     maximum_version => undef,
     version         => $VERSION,
@@ -63,7 +63,7 @@ body {
     background-color: ivory;
 }
 #header {
-    background-color: indigo;
+    background: repeating-linear-gradient( 135deg, #352C2E, #352C2E 16px, purple 16px, purple 32px );
 }
 </style>
 |;
